@@ -1,0 +1,42 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.hero{
+	min-height: 100vh;
+	background: linear-gradient(to bottom right, #4389A2, #5C258D);
+	background-color: #5C258D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-text{
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.sub-text{
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-size: .8em;
+	padding: 0;
+	margin: 10px;
+	font-weight: 300;
+}
+
+.link{
+	text-decoration: none;
+	color: #0CBEFF;
+	font-weight: 400;
+	transition: .2s;
+}
+
+.link:hover{
+	color: #5BD3FF;
+}
