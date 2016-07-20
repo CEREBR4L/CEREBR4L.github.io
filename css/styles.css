@@ -3,6 +3,21 @@ body{
 	margin: 0;
 }
 
+/*
+	TEMP
+ */
+
+h1{
+	font-family: 'Muli', sans-serif;
+	color: #888;
+	font-weight: 300;
+	text-align: center;
+}
+
+.controller{
+	min-height: 75vh;
+}
+
 .hero{
 	min-height: 100vh;
 	background: linear-gradient(to bottom right, #4389A2, #5C258D);
@@ -12,13 +27,12 @@ body{
 	align-items: center;
 }
 
-.hero-text, .sub-text, .nav-list, .main-text{
+.hero-text, .sub-text, .nav-list, .main-text, .footer{
 	font-family: 'Muli', sans-serif;
 }
 
 .hero-text{
 	color: #fff;
-	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	text-align: center;
 	padding: 0;
@@ -48,7 +62,7 @@ body{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border-bottom: 2px solid #eee;
+	border-bottom: 2px solid #e8e8e8;
 }
 
 .main-text{
@@ -65,4 +79,11 @@ body{
 .nav-list-item{
 	display: inline-block;
 	margin: 0 20px;
+}
+
+.footer{
+	background-color: #0CBEFF;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
 }
