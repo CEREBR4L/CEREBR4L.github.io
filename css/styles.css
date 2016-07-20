@@ -15,11 +15,11 @@ h1{
 }
 
 .controller{
-	min-height: 75vh;
+	min-height: 85vh;
 }
 
 .hero{
-	min-height: 85vh;
+	min-height: 100vh;
 	background: linear-gradient(to bottom right, #4389A2, #5C258D);
 	background-color: #5C258D;
 	display: flex;
