@@ -19,7 +19,7 @@ h1{
 }
 
 .hero{
-	min-height: 100vh;
+	min-height: 85vh;
 	background: linear-gradient(to bottom right, #4389A2, #5C258D);
 	background-color: #5C258D;
 	display: flex;
@@ -45,6 +45,7 @@ h1{
 	padding: 0;
 	margin: 10px;
 	font-weight: 300;
+	text-align: center;
 }
 
 .link{
