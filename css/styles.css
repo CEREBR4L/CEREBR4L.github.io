@@ -29,6 +29,10 @@ h1{
 	align-items: center;
 }
 
+.hero-smaller{
+	min-height: 80vh;
+}
+
 .hero-text, .sub-text, .nav-list, .main-text, .footer{
 	font-family: 'Muli', sans-serif;
 }
@@ -91,8 +95,8 @@ h1{
 }
 
 .footer{
-	background-color: #0CBEFF;
 	padding: 20px;
-	color: #fff;
+	color: #888;
 	text-align: center;
+	border-top: 2px solid #efefef;
 }
