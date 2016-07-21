@@ -12,10 +12,12 @@ h1{
 	color: #888;
 	font-weight: 300;
 	text-align: center;
+	padding: 10px 0;
 }
 
 .controller{
 	min-height: 85vh;
+	margin-top: 62px;
 }
 
 .hero{
@@ -60,10 +62,15 @@ h1{
 }
 
 .nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	border-bottom: 2px solid #e8e8e8;
+	background-color: #fff;
+	height: 60px;
+	border-bottom: 2px solid #efefef;
 }
 
 .main-text{
@@ -73,13 +80,14 @@ h1{
 
 .nav-list{
 	list-style: none;
-	padding: 0;
 	margin: 0;
 }
 
 .nav-list-item{
+	text-align: center;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0px 30px;
+	font-size: 1em;
 }
 
 .footer{
