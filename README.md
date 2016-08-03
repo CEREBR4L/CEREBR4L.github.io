@@ -13,6 +13,5 @@ I am building a portfolio :)
  
 ## Themes
 - http://www.palettable.io/FD503F-F2ECDC-474747-F5C664-E2DCCC
-- http://www.palettable.io/08C5FF-5E737A-A0B0C0-E0FFFF-343C47
 - https://coolors.co/ffa69e-faf3dd-b8f2e6-aed9e0-5e6472
 
