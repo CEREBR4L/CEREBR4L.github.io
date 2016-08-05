@@ -1,4 +1,7 @@
 angular.module('port')
-	.controller('AboutCont', function AboutController(){
+	.controller('aboutCont', function AboutController(){
 		this.title = "About a bichhh";
+
+		
+
 	});
