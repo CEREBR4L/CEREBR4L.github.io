@@ -1,4 +1,4 @@
 angular.module('port')
-	.controller('SkillsCont', function SkillsController(){
+	.controller('skillsCont', function SkillsController(){
 		this.title = "Skills";
 	});
