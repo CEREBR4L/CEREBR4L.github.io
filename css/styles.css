@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 
-.h1, .link, .p{
+.h1, .h2, .link, .p{
 	font-family: 'Muli', sans-serif;
 }
 
@@ -56,6 +56,10 @@ body{
 	text-align: center;
 }
 
+.h2{
+	text-align: center;
+}
+
 .p{
 	text-align: center;
 	padding: 10px 0;
@@ -66,4 +70,20 @@ body{
 
 .img{
 	width: 50%;
+}
+
+.center{
+	text-align: center;
+}
+
+em{
+	font-size: 3em;
+	color: #313638;
+	margin: 10px 25px;
+	text-align: center;
+	transition: .3s;
+}
+
+em:hover{
+	color: #E4B363;
 }
