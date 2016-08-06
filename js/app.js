@@ -24,11 +24,6 @@ app.config(function($routeProvider, $locationProvider){
 			controller: 'projectsCont',
 			controllerAs: 'projects'
 		})
-		.when('/about', {
-			templateUrl: 'templates/about.html',
-			controller: 'aboutCont',
-			controllerAs: 'about'
-		})
 		.otherwise({
 			redirectTo: '/'
 		});

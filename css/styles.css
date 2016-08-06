@@ -28,7 +28,7 @@ body{
 
 .link{
 	text-decoration: none;
-	color: #AED9E0;
+	color: #E4B363;
 	transition: .3s;
 }
 
@@ -41,8 +41,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #AED9E0;
-	color: #fff;
+	background-color: #E4B363;
+	color: #313638;
 }
 
 .cont{
@@ -62,5 +62,8 @@ body{
 	margin: 0;
 }
 
-.d-blue{ color: #9BC1C6; opacity: .6; }
-.l-blue{ color: #AED9E0; }
+.onyx{ color: #313638; }
+
+.img{
+	width: 50%;
+}
