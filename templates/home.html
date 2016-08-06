@@ -1,19 +1,32 @@
 
 <div class="hero">
 	<div>
-		<h1 class="h1">{{ home.heroMain }}</h1>
-		<p class="p">{{ home.subHero}}</p>
+		<h1 class="h1">{{ heroMain }}</h1>
+		<p class="p">{{ subHero }}</p>
 	</div>
 </div>
 
 <div class="cont">
 	<div class="about">
-		<h1 class="h1 d-blue">{{ home.aboutMe.title }}</h1>
-		<p class="p l-blue">{{ home.aboutMe.body }}</p>
+		<h1 class="h1 onyx">{{ aboutMe.title }}</h1>
+		<p class="p onyx">{{ aboutMe.body }}</p>
 	</div>
 	
 	<div class="projects">
+
+		<h1 class="h1 onyx">Projects</h1>
 		
+		<div ng-repeat="project in projects">
+			<div>
+				<img ng-src="{{ project.img }}" class="img">
+			</div>
+			<div>
+				<h2>{{ project.title }}</h2>
+				<p class="p">{{ project.desc }}</p>
+				<button>{{ project.button }}</button>
+			</div>
+		</div>
+
 	</div>
 
 </div>
