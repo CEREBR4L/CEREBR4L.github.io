@@ -11,16 +11,18 @@ angular.module('port')
 
 		$scope.projects = [
 			{
-				"img": "img/1.png",
+				"img": "img/3.png",
 				"title": "Linkr",
 				"desc": "Linkr is a URL shortening app.",
-				"button": "Clicc Me"
+				"link": "http://linkr.xyz/",
+				"button": "View Project"
 			},
 			{
-				"img": "img/1.png",
+				"img": "img/2.png",
 				"title": "Mehssager.io",
 				"desc": "Mehssager.io is an app to send super secret messages to your friends!",
-				"button": "WHO UPP CLICC LIKE"
+				"link": "https://mehssager.herokuapp.com/",
+				"button": "View Project"
 			}
 		]
 

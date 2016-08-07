@@ -14,16 +14,6 @@ app.config(function($routeProvider, $locationProvider){
 			controller: 'homeCont',
 			controllerAs: 'home'
 		})
-		.when('/skills', {
-			templateUrl: 'templates/skills.html',
-			controller: 'skillsCont',
-			controllerAs: 'skills'
-		})
-		.when('/projects', {
-			templateUrl: 'templates/projects.html',
-			controller: 'projectsCont',
-			controllerAs: 'projects'
-		})
 		.otherwise({
 			redirectTo: '/'
 		});
